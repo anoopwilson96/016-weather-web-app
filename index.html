@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--Link stylesheets-->
-<link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Link stylesheets-->
+    <link rel="stylesheet" href="./style.css" />
 
-  <title>weather app</title>
-</head>
-<body>
+    <title>weather app</title>
+  </head>
+  <body>
+    <!--Link JavaScript-->
+    <script src="./script.js"></script>
+    <header></header>
+    <main>
+      <div id="weather-container">
+        <h2>Weather App</h2>
+        <input type="text" id="city" placeholder="Enter the city" />
+        <button onclick="getWeather()">Search</button>
 
-<!--Link JavaScript-->
-<script src="./script.js"></script>
-<header>
-
-</header>
-<main>
-  <div id="weather-container">
-    <h2>Weather App</h2>
-    <input type="text" id="city" placeholder="Enter the city">
-    <button onclick="getWeather()">Search</button>
-
-    <img id="weather-icon" src="" alt="weather icon">
-    <div id="temp-div"></div>
-    <div id="weather-info"></div>
-    <div id="hourly-forecast"></div>
-  </div>
-
-</main>
-<footer>
-
-</footer>
-</body>
+        <img id="weather-icon" src="" alt="weather icon" />
+        <div id="temp-div"></div>
+        <div id="weather-info"></div>
+        <div id="hourly-forecast"></div>
+      </div>
+    </main>
+    <footer></footer>
+    <!--Link Scrip file-->
+    <script src="./script.js"></script>
+  </body>
 </html>
